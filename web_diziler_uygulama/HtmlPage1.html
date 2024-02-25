@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <script src="JavaScript.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="col  bg-danger">
+            <div class="row d-flex justify-content-center">
+                <input id="text1" style="width:180px;height:20px;" type="text" placeholder="Adınızı giriniz" />
+            </div>
+            <p id="p1"></p>
+            <div class="row  d-flex justify-content-center">
+                <input id="text2" style="width:180px;height:20px;" type="text" placeholder="Departman" />
+            </div>
+            <p></p>
+            <div class="row  d-flex justify-content-center">
+                <input id="text3" style="width:180px;height:20px;" type="text" placeholder="Maaş" />
+            </div>
+            <p></p>
+            <div class="row  d-flex justify-content-center">
+                <input id="text4" style="width:180px;height:20px;" type="date" placeholder="Çalışma Süresi" />
+            </div>
+            <p></p>
+            <div class="row  d-flex justify-content-center">
+                <input id="btn1" type="button" onclick="ekle()" value="EKLE" />
+            </div>
+            <div class="row  d-flex justify-content-center">
+                <input id="btn2" type="button" onclick="sil()" value="Sİl" />
+            </div>
+            <div class="row  d-flex justify-content-center">
+                <input id="btn3" type="button" onclick="güncelle()" value="Güncelle" />
+            </div>
+            <div class="row  d-flex justify-content-center">
+                <input id="btn3" type="button" onclick="gstr()" value="göster" />
+            </div>
+            <p id="p2"></p>
+            <p id="p3"></p>
+            <p id="p4"></p>
+            <p id="p5"></p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td id="ismtd">
+                        </td>
+                        <td id="ismtd2">
+                        </td>
+                        <td id="ismtd3">
+                        </td>
+                        <td id="ismtd4">
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+
+        </div>
+    </div>
+    
+</body>
+</html>
